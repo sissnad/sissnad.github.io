@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nadroid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 60px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .bio {
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        .bio p {
+            color: #888;
+            font-size: 16px;
+        }
+
+        .bio a {
+            color: #888;
+            text-decoration: none;
+            border-bottom: 1px solid #444;
+        }
+
+        .bio a:hover {
+            color: #fff;
+            border-color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #555;
+            margin-bottom: 16px;
+        }
+
+        .links {
+            list-style: none;
+        }
+
+        .links li {
+            margin-bottom: 12px;
+        }
+
+        .links a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .links a:hover {
+            border-color: #555;
+        }
+
+        .links .description {
+            color: #555;
+            font-size: 14px;
+            margin-left: 8px;
+        }
+
+        .socials {
+            display: flex;
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .socials a {
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .socials a:hover {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bio">
+            <h1>nadroid</h1>
+            <p>Thinking about economics, protocol design, and risk. Building <a href="https://sprinter.tech">Sprinter</a>.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Writing</div>
+            <ul class="links">
+                <li>
+                    <a href="https://nadroid.substack.com/p/why-most-crypto-credit-cards-arent-really-credit">Why Most Crypto Credit Cards Aren't Really Credit</a>
+                </li>
+                <li>
+                    <a href="#">The Mirage of LTV</a>
+                    <span class="description">- Aave's ratios understate real capital needs</span>
+                </li>
+                <li>
+                    <a href="#">Are Stables More Risky Than ETH?</a>
+                    <span class="description">- DeFi vs bank regulation</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Sprinter Blog</div>
+            <ul class="links">
+                <li>
+                    <a href="https://blog.sprinter.tech/series-beyond-loans-part-3/">Beyond Loans Part III: Credit as Price, Collateral, and Code</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <a href="https://x.com/nad_roid">Twitter</a>
+            <a href="https://nadroid.substack.com">Substack</a>
+            <a href="https://github.com/sissnad">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
