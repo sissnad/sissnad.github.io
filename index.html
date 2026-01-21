@@ -70,7 +70,7 @@
             list-style: none;
         }
 
-        .links li {
+        .links > li {
             margin-bottom: 12px;
         }
 
@@ -91,6 +91,35 @@
             color: #555;
             font-size: 14px;
             margin-left: 8px;
+        }
+
+        /* Series grouping */
+        .series-title {
+            font-weight: 600;
+            color: #e0e0e0;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .sub-links {
+            list-style: none;
+            margin-left: 18px;
+            margin-top: 6px;
+        }
+
+        .sub-links li {
+            margin-bottom: 8px;
+        }
+
+        .sub-links a {
+            color: #cfcfcf;
+            font-size: 15px;
+            border-bottom: 1px solid transparent;
+        }
+
+        .sub-links a:hover {
+            border-color: #555;
+            color: #e0e0e0;
         }
 
         .socials {
@@ -134,19 +163,29 @@
             <div class="section-title">Sprinter Blog</div>
             <ul class="links">
                 <li>
-                    <a href=https://blog.sprinter.tech/building-economic-trust-in-solver-based-networks-part-2/>Building Economic Trust in Solver-Based Networks: The State of Competition</a>
+                    <span class="series-title">Building Economic Trust in Solver-Based Networks</span>
+                    <ul class="sub-links">
+                        <li>
+                            <a href="https://blog.sprinter.tech/building-economic-trust-in-solver-based-networks-part-2/">Part 2: Building Economic Trust in Solver-Based Networks: The State of Competition</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.sprinter.tech/building-economic-trust-in-solver-based-networks-part-3/">Part 3: Building Economic Trust in Solver-Based Networks: Reclaiming Efficient Markets</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href=https://blog.sprinter.tech/building-economic-trust-in-solver-based-networks-part-3/>Building Economic Trust in Solver-Based Networks: Reclaiming Efficient Markets</a>
-                </li>
-                <li>
-                    <a href="https://blog.sprinter.tech/series-beyond-loans-part-1/">Beyond Loans Part I - Credit as Price, Collateral, and Code</a>
-                </li>
-                <li>
-                    <a href="https://blog.sprinter.tech/series-beyond-loans-part-2/">Beyond Loans Part II - Instant vs. Guaranteed Settlement, Perps, Factoring, and Usage‑Constrained Credit</a>
-                </li>
-                <li>
-                    <a href="https://blog.sprinter.tech/series-beyond-loans-part-3/">Beyond Loans Part III: Credit as Price, Collateral, and Code</a>
+                    <span class="series-title">Beyond Loans</span>
+                    <ul class="sub-links">
+                        <li>
+                            <a href="https://blog.sprinter.tech/series-beyond-loans-part-1/">Part I - Credit as Price, Collateral, and Code</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.sprinter.tech/series-beyond-loans-part-2/">Part II - Instant vs. Guaranteed Settlement, Perps, Factoring, and Usage‑Constrained Credit</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.sprinter.tech/series-beyond-loans-part-3/">Part III: Credit as Price, Collateral, and Code</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
